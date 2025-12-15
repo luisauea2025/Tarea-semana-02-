@@ -1,0 +1,15 @@
+/workspaces/Tarea-semana-02-/bin/Debug/net10.0/Tarea-semana-02-
+/workspaces/Tarea-semana-02-/bin/Debug/net10.0/Tarea-semana-02-.deps.json
+/workspaces/Tarea-semana-02-/bin/Debug/net10.0/Tarea-semana-02-.runtimeconfig.json
+/workspaces/Tarea-semana-02-/bin/Debug/net10.0/Tarea-semana-02-.dll
+/workspaces/Tarea-semana-02-/bin/Debug/net10.0/Tarea-semana-02-.pdb
+/workspaces/Tarea-semana-02-/obj/Debug/net10.0/Tarea-semana-02-.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Tarea-semana-02-/obj/Debug/net10.0/Tarea-semana-02-.AssemblyInfoInputs.cache
+/workspaces/Tarea-semana-02-/obj/Debug/net10.0/Tarea-semana-02-.AssemblyInfo.cs
+/workspaces/Tarea-semana-02-/obj/Debug/net10.0/Tarea-semana-02-.csproj.CoreCompileInputs.cache
+/workspaces/Tarea-semana-02-/obj/Debug/net10.0/Tarea-semana-02-.sourcelink.json
+/workspaces/Tarea-semana-02-/obj/Debug/net10.0/Tarea-semana-02-.dll
+/workspaces/Tarea-semana-02-/obj/Debug/net10.0/refint/Tarea-semana-02-.dll
+/workspaces/Tarea-semana-02-/obj/Debug/net10.0/Tarea-semana-02-.pdb
+/workspaces/Tarea-semana-02-/obj/Debug/net10.0/Tarea-semana-02-.genruntimeconfig.cache
+/workspaces/Tarea-semana-02-/obj/Debug/net10.0/ref/Tarea-semana-02-.dll

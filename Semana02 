@@ -1,0 +1,112 @@
+using System;
+
+namespace FigurasGeometricas
+{
+    // Clase Círculo
+    public class Circulo
+    {
+        // Propiedad para almacenar el radio
+        public double Radio { get; set; }
+
+        // Constructor para inicializar el radio
+        public Circulo(double radio)
+        {
+            Radio = radio;
+        }
+
+        // CalcularArea es una función que devuelve un valor double, se utiliza para calcular el área de un círculo
+        // Requiere como argumento el radio del círculo
+        public double CalcularArea()
+        {
+            return Math.PI * Radio * Radio;
+        }
+
+        // CalcularPerimetro es una función que devuelve el valor double, se utiliza para calcular el perímetro de un círculo
+        // Requiere como argumento el radio del círculo
+        public double CalcularPerimetro()
+        {
+            return 2 * Math.PI * Radio;
+        }
+    }
+
+    // Clase Cuadrado
+    public class Cuadrado
+    {
+        // Propiedad para almacenar el lado
+        public double Lado { get; set; }
+
+        // Constructor para inicializar el lado
+        public Cuadrado(double lado)
+        {
+            Lado = lado;
+        }
+
+        // CalcularArea es una función que devuelve un valor double, se utiliza para calcular el área de un cuadrado
+        // Requiere como argumento el lado del cuadrado
+        public double CalcularArea()
+        {
+            return Lado * Lado;
+        }
+
+        // CalcularPerimetro es una función que devuelve el valor double, se utiliza para calcular el perímetro de un cuadrado
+        // Requiere como argumento el lado del cuadrado
+        public double CalcularPerimetro()
+        {
+            return 4 * Lado;
+        }
+    }
+
+    // Clase Rectángulo
+    public class Rectangulo
+    {
+        // Propiedades para almacenar los lados
+        public double Largo { get; set; }
+        public double Ancho { get; set; }
+
+        // Constructor para inicializar el largo y el ancho
+        public Rectangulo(double largo, double ancho)
+        {
+            Largo = largo;
+            Ancho = ancho;
+        }
+
+        // CalcularArea es una función que devuelve un valor double, se utiliza para calcular el área de un rectángulo
+        // Requiere como argumento el largo y el ancho del rectángulo
+        public double CalcularArea()
+        {
+            return Largo * Ancho;
+        }
+
+        // CalcularPerimetro es una función que devuelve el valor double, se utiliza para calcular el perímetro de un rectángulo
+        // Requiere como argumento el largo y el ancho del rectángulo
+        public double CalcularPerimetro()
+        {
+            return 2 * (Largo + Ancho);
+        }
+    }
+
+    // Programa Principal
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Crear un objeto de la clase Circulo con radio 5
+            Circulo miCirculo = new Circulo(5);
+            Console.WriteLine("Círculo:");
+            Console.WriteLine("Área: " + miCirculo.CalcularArea());
+            Console.WriteLine("Perímetro: " + miCirculo.CalcularPerimetro());
+
+            // Crear un objeto de la clase Cuadrado con lado 4
+            Cuadrado miCuadrado = new Cuadrado(4);
+            Console.WriteLine("\nCuadrado:");
+            Console.WriteLine("Área: " + miCuadrado.CalcularArea());
+            Console.WriteLine("Perímetro: " + miCuadrado.CalcularPerimetro());
+
+            // Crear un objeto de la clase Rectángulo con largo 6 y ancho 3
+            Rectangulo miRectangulo = new Rectangulo(6, 3);
+            Console.WriteLine("\nRectángulo:");
+            Console.WriteLine("Área: " + miRectangulo.CalcularArea());
+            Console.WriteLine("Perímetro: " + miRectangulo.CalcularPerimetro());
+        }
+    }
+}
